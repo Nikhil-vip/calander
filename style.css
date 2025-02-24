@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient( 90deg, rgba(0,0,0,0.5), rgba(0, 255, 30, 0.5),rgba(35, 165, 5, 0.5));
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+}
+#big{
+    height: 180px;
+    width: 250px;
+    border: 2px solid white;
+    position: absolute;
+    top: 250px;
+    border-radius: 30px;
+    background-color: white;
+}
+#small{
+    height: 60px;
+    width: 250px;
+   border-radius: 20px;
+   background-color: orange;
+   position: absolute;
+   top: 250px;
+}
+#small2{
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    position: absolute;
+   top: 480px;
+   right: 650px;
+}
+#small3{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+   top: 480px;
+   right: 770px;  
+}
